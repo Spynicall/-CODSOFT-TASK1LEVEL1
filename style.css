@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+}
+
+/* ---------- TOP FRAME (30%) ---------- */
+.top-body {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #f1f5f9;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.objective h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.objective h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #93c5fd;
+  margin-bottom: 0.6rem;
+}
+
+.objective p {
+  max-width: 600px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #e2e8f0;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.social-item a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #f1f5f9;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.social-item a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(4px);
+}
+
+.icon {
+  font-size: 1.1rem;
+}
+
+/* ---------- BOTTOM FRAME (70%) ---------- */
+.bottom-body {
+  background: #f8fafc;
+  padding: 2rem 3rem;
+}
+
+.section {
+  margin-bottom: 2.2rem;
+}
+
+.section h2 {
+  font-size: 1.3rem;
+  color: #1e3a8a;
+  border-bottom: 2px solid #1e3a8a;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.skill-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem 1.4rem;
+  flex: 1 1 220px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.skill-box h3 {
+  font-size: 1rem;
+  color: #1e3a8a;
+  margin-bottom: 0.6rem;
+}
+
+.skill-box ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.cert-list, .contact-grid {
+  list-style: none;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.cert-list li {
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.edu-item {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem 1.4rem;
+}
+
+.edu-item h3 {
+  font-size: 1rem;
+  color: #1e3a8a;
+  margin-bottom: 0.3rem;
+}
+
+.contact-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.resume-section {
+  text-align: center;
+}
+
+.resume-btn {
+  display: inline-block;
+  background: #1e3a8a;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.resume-btn:hover {
+  background: #172554;
+  transform: translateY(-2px);
+}
