@@ -2,11 +2,11 @@
 
 A resume/portfolio landing page built with plain **HTML, CSS, and JavaScript**, using a classic `<frameset>` layout to split the page into two fixed regions: a 30% header band and a 70% content band.
 
-Live look: open `index.html` directly in a browser (no build step, no dependencies).
+🔗 Live look: open `index.html` directly in a browser (no build step, no dependencies).
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 .
@@ -20,7 +20,7 @@ Live look: open `index.html` directly in a browser (no build step, no dependenci
 
 ---
 
-## Features
+## ✨ Features
 
 - **30:70 split layout** using `<frameset rows="30%,70%">` — objective and socials up top, everything else below.
 - **Career objective + social links** (LinkedIn, GitHub, email) as styled `<div>` cards.
@@ -32,7 +32,7 @@ Live look: open `index.html` directly in a browser (no build step, no dependenci
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - HTML5 (`<frameset>` / `<frame>`)
 - CSS3 (Flexbox, gradients, transitions)
@@ -46,8 +46,8 @@ No installation needed — this is a static, dependency-free site.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Spynicall/CODSOFT-TASK1LEVEL1.git
+   cd CODSOFT-TASK1LEVEL1
    ```
 2. Add your resume PDF to the project folder, named to match the `href` in `bottom.html` (currently `SanskarRaiResume.pdf`).
 3. Open `index.html` in your browser:
@@ -64,7 +64,7 @@ That's it — no server required, though you can optionally serve it with any st
 
 ---
 
-##  Customizing
+## ✏️ Customizing
 
 | What to change | Where |
 |---|---|
@@ -79,7 +79,7 @@ That's it — no server required, though you can optionally serve it with any st
 
 ---
 
-## A Note on `<frameset>`
+## ⚠️ A Note on `<frameset>`
 
 `<frameset>` and `<frame>` were removed from the HTML5 specification and are considered deprecated. Most modern desktop browsers still render them, but:
 
